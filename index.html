@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <div class="mainBlock">
+
+    <div class="mainBlockBeta">
+        <p class="title">ToDo List ⚒️</p>
+
+          <div class="todolist">
+            <input placeholder="ToDo name" class="js-name-input nameInput"  >
+            <input type="date" class="js-due-date-input dateInput" >
+
+            <button onclick="
+              addTodo()
+            " class="addButton">Add</button>
+            
+
+            <div class="js-todo-list todoGrid"></div>
+  </div>
+    </div>
+
+  </div>
+
+
+    <footer class="footer">
+      Made With ❤️ By <a href="https://www.linkedin.com/in/mohnish-singh-080321289/" >Mohnish</a>
+    </footer>
+
+  
+  <script src="./index.js"></script>
+</body>
+</html>
